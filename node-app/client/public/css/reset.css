@@ -1,0 +1,27 @@
+html,p,body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input,img,form,table,tr,td,select,input,fieldset,legend{
+    margin:0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+ol li{
+    list-style: none;
+}
+img{
+    border:none; 
+}
+input{
+    border: none;
+    outline:none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
